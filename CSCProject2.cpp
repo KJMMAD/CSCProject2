@@ -1,8 +1,9 @@
 #include <iostream>
 
 int main() {
-	int gasTank = 20;
-	float mpgTown = 23.5;
-	float mpgHighway = 28.9;
-	std::cout << "A car with a 20 gallon gas tank can drive for " << gasTank * mpgTown << " miles in a town and " << gasTank * mpgHighway << " miles on the highway.";
+	int customers = 16500;
+	int survey1 = customers * 0.15;
+	int survey2 = survey1 * 0.58;
+	std::cout << "Of the " << customers << " customers surveyed, around " << survey1 << " said that they purchase one or more energy drinks per week.\n";
+	std::cout << "Of those customers, around " << survey2 << " said they prefer citrus-flavored energy drinks.";
 }
